@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.main`
-  background-color: #06092b;
+  background-color: #0d0d3a;
   color: #fff;
   width: 100%;
   height: 100%;
@@ -19,12 +19,23 @@ export const Logo = styled.img`
 `
 
 export const Title = styled.h1`
-  font-size: 2.5rem;
+  font-size: 2rem;
+  color: #d4a21f;
 `
 
 export const Description = styled.h2`
-  font-size: 2rem;
-  font-weight: 400;
+  font-size: 1rem;
+  margin-top: 2rem;
+  font-weight: bold;
+  color: #586577;
+`
+
+export const Link = styled.a`
+  font-size: 1rem;
+  margin-top: 2rem;
+  font-weight: bold;
+  color: #586577;
+  text-decoration: none;
 `
 
 export const Illustration = styled.img`
